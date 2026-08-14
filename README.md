@@ -105,4 +105,4 @@ _ _ _
 
 Tela criada durante a dinâmica de APS, com o objetivo de propor uma solução para problemas da instituição.
 
-![Protótipo da tela](./desenhoAPS)
+<img src="./desenhoAPS.jpeg" alt="Protótipo da interface" width="500">
