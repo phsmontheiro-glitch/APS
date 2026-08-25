@@ -177,23 +177,23 @@
 
 ## Requisito Funcional
 
-| Campo                      | Resposta do grupo    |
-| -------------------------- | -------------------- |
-| **Identificação**          | RF__                 |
-| **Descrição**              |                      |
-| **Prioridade**             | Alta / Média / Baixa |
-| **Critérios de aceitação** |                      |
-| **Exemplo**                |                      |
+| Campo                      | Resposta do grupo                                                                                                                                                   |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Identificação**          | RF01                                                                                                                                                                |
+| **Descrição**              | O sistema deve permitir que funcionários cadastrem novos alunos na academia.                                                                                        |
+| **Prioridade**             | Alta                                                                                                                                                                |
+| **Critérios de aceitação** | 1. Deve permitir informar nome, CPF, e-mail e telefone. 2. Deve impedir o cadastro sem nome e CPF. 3. Deve informar ao funcionário quando o cadastro for concluído. |
+| **Exemplo**                | O funcionário informa os dados de um novo aluno e seleciona **Cadastrar**. O sistema valida as informações e registra o aluno.                                      |
 
 ## Requisito Não Funcional
 
-| Campo                      | Resposta do grupo    |
-| -------------------------- | -------------------- |
-| **Identificação**          | RNF__                |
-| **Descrição**              |                      |
-| **Prioridade**             | Alta / Média / Baixa |
-| **Critérios de aceitação** |                      |
-| **Exemplo**                |                      |
+| Campo                      | Resposta do grupo                                                                                                                                                                                                                                                |
+| -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Identificação**          | RNF01                                                                                                                                                                                                                                                            |
+| **Descrição**              | O sistema deve controlar o acesso às funcionalidades de acordo com o perfil do usuário.                                                                                                                                                                          |
+| **Prioridade**             | Alta                                                                                                                                                                                                                                                             |
+| **Critérios de aceitação** | 1. Os usuários devem realizar autenticação antes de acessar funções restritas. 2. Funcionalidades administrativas devem estar disponíveis somente para funcionários e administradores autorizados. 3. O aluno não deve conseguir acessar dados de outros alunos. |
+| **Exemplo**                | Um aluno acessa o sistema, mas não consegue acessar a tela de cadastro e edição de planos, que é restrita aos funcionários autorizados.                                                                                                                          |
 
 ---
 
